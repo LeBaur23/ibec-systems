@@ -1,0 +1,9 @@
+%responsive {
+  width: 1130px;
+  margin: 0 auto;
+  display: flex;
+
+  @media (max-width: $static_width) {
+    width: 100%;
+  }
+}

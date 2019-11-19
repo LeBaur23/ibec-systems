@@ -1,0 +1,24 @@
+@import "variables";
+@import "reset";
+@import "extendings";
+@import "mixins";
+@import "components/navbar";
+@import "components/cards";
+@import "pages/contacts";
+@import "pages/about";
+
+
+.main {
+  &-page {
+
+    @extend %responsive;
+  }
+}
+
+.promo {
+  height: 200px;
+  background-color: #d8d8d8;
+  border: 1px solid $link_border;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
